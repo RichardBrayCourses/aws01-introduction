@@ -69,7 +69,9 @@ Then use homebrew to install whichever packages you don't already have. Here are
   brew install pnpm
 ```
 
-then in a new terminal (to get the correct PATH)
+## Step 4 - essential software configuration
+
+Open in a NEW terminal (to get the correct PATH) and enter the following commands:
 
 ```
   git-credential-manager configure

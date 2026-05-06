@@ -8,8 +8,8 @@ To get started you will need the following software installed:
 - Node.js
 - git (including the git credential manager)
 - Visual Studio Code
-- AWS CLI
-- AWS CDK
+- AWS Command Line Interface ("CLI")
+- AWS CDK Command Line Interface
 - pnpm (package manager)
 
 Later on in the course we will also use:

@@ -99,7 +99,7 @@ then in a new terminal (to get the correct PATH)
 
 ```
   npm install -g aws-cdk
-  git-credential-manager configure
+  git credential-manager configure
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
 ```

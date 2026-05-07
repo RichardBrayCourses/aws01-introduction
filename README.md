@@ -90,7 +90,6 @@ Open a new powershell terminal in admin mode and use winget to install whichever
   winget install Google.Chrome
   winget install Git.Git
   winget install OpenJS.NodeJS
-  winget install GitCredentialManager.GitCredentialManager
   winget install Microsoft.VisualStudioCode
   winget install Amazon.AWSCLI
   winget install pnpm.pnpm
@@ -104,8 +103,6 @@ then in a new terminal (to get the correct PATH)
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
 ```
-
-Open Docker Desktop once after installation and allow it to complete setup.
 
 ## Notes
 

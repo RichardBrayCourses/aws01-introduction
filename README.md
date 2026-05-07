@@ -106,4 +106,4 @@ then in a new terminal (to get the correct PATH)
 
 ## Notes
 
-- You do not need to configure AWS yet — we will do that later in the course
+- You do not need to configure AWS yet — we will do that later in the course.

@@ -95,14 +95,30 @@ Open a new powershell terminal in admin mode and use winget to install whichever
   winget install pnpm.pnpm
 ```
 
-then in a new terminal (to get the correct PATH)
+Then in a new terminal (to get the correct PATH)
 
 ```
-  npm install -g aws-cdk
   git credential-manager configure
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
 ```
+
+Then enter this command into your powershell terminal, which will start a bash terminal running 
+
+```
+& "C:\Program Files\Git\bin\bash.exe"
+```
+
+Once in the bash terminal you should enter the following commands to ensure it will recognise the cdk command 
+
+```
+npm install -g aws-cdk
+echo 'export PATH="$PATH:$HOME/AppData/Roaming/npm"' >> ~/.bash_profile
+source ~/.bash_profile
+cdk --version
+
+```
+
 
 ## Notes
 
